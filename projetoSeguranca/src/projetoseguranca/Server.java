@@ -31,6 +31,7 @@ class Server {
         try {
             ServerSocket s = new ServerSocket( port, 5, InetAddress.getByName( "localhost" ) );
             System.out.print( "Started server on port " + port + "\n" );
+            System.out.println(port);
             waitForClients( s );
         } catch (Exception e) {
             System.err.print( "Cannot open socket: " + e );

@@ -3,7 +3,7 @@ import com.google.gson.*;
 class UserDescription implements Comparable {
 
     int id;		             // id extracted from the CREATE command
-    JsonElement description;     // JSON user's description
+    JsonElement description;        // JSON user's description
     String uuid;		     // User unique identifier (across sessions)
 
     UserDescription ( int id, JsonElement description ) {

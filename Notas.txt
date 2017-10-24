@@ -1,0 +1,22 @@
+- Setup of a sessionkey between a client and the server prior to exchange any command;
+- Authentication ( with the session key) and integrity control of all messages ehance between client and server;
+- Add to each server reply a genuiness warrant;
+- Register relevant security-related data in a user creation process;
+- Involve the Citizen Card in the user creation process;
+- Encrypt messages delivered to other users;
+- Signature of the messages delevired to other users and validation of those signatures;
+- Encrypt messages saved in the receipt box;
+- Send a secure receipt after reading a message;
+- Check receipts of sent messages;
+- Proper checking of public key certificates from Citizen Cards;
+- Prevent a user from reading messages from other than their own message box;
+- Prevent a user from sending a receipt for a message that they had not red.
+
+
+Project development:
+- develop a complete, non-secure client application.
+- Start the report with a draft of the security specification;
+- Start the coding of security feautres by adding secure data to each user profile, upon their initial registration;
+- Use the secure data of proper selected users to protect messages and receipts;
+- Involve the Citizen Card in the whole process and use its certificates to extract user identity information;
+- Protect the communication between the client and server;
